@@ -27,31 +27,31 @@
 
 ```mermaid
 graph TD
-    subgraph 第一阶段：零基础入门
-        A1[Python 基础] --> A2[提示词工程]
-        A2 --> A3[API 实战]
+    subgraph Phase1 [第一阶段 零基础入门]
+        A1["Python 基础"] --> A2["提示词工程"]
+        A2 --> A3["API 实战"]
     end
 
-    subgraph 第二阶段：RAG 开发
-        A3 --> B1[LangChain 核心]
-        B1 --> B2[RAG 开源项目实战]
-        B2 --> B3[知识库平台构建]
+    subgraph Phase2 [第二阶段 RAG开发]
+        A3 --> B1["LangChain 核心"]
+        B1 --> B2["RAG 开源项目实战"]
+        B2 --> B3["知识库平台构建"]
     end
 
-    subgraph 第三阶段：智能体与架构
-        B3 --> C1[LlamaIndex 进阶]
-        B1 --> C2[Transformer 底层原理]
+    subgraph Phase3 [第三阶段 智能体与架构]
+        B3 --> C1["LlamaIndex 进阶"]
+        B1 --> C2["Transformer 底层原理"]
         C2 --> C1
-        C1 --> C3[AI Agent 开发]
+        C1 --> C3["AI Agent 开发"]
     end
 
-    subgraph 第四阶段：模型优化与部署
-        C2 --> D1[模型微调 Fine-tuning]
-        D1 --> D2[模型量化与高效部署]
-        C2 --> D3[多模态 CLIP 原理与实践]
+    subgraph Phase4 [第四阶段 模型优化与部署]
+        C2 --> D1["模型微调 Fine-tuning"]
+        D1 --> D2["模型量化与高效部署"]
+        C2 --> D3["多模态 CLIP 原理与实践"]
     end
 
-    style 第一阶段：零基础入门 fill:#e1f5fe,stroke:#01579b
-    style 第二阶段：RAG 开发 fill:#e8f5e9,stroke:#2e7d32
-    style 第三阶段：智能体与架构 fill:#fff3e0,stroke:#e65100
-    style 第四阶段：模型优化与部署 fill:#fce4ec,stroke:#880e4f
+    style Phase1 fill:#e1f5fe,stroke:#01579b
+    style Phase2 fill:#e8f5e9,stroke:#2e7d32
+    style Phase3 fill:#fff3e0,stroke:#e65100
+    style Phase4 fill:#fce4ec,stroke:#880e4f
