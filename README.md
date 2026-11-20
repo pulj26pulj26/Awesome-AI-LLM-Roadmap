@@ -161,7 +161,7 @@ graph TD
 - **Agent 阶段**：先用 CrewAI 上手跑通，再读 AutoGen / OpenHands 的架构设计。
 - **微调 / 量化**：用 LLaMA-Factory + Ollama 组合即可覆盖大部分实战场景。
 
-> 💡 如果你想知道这些产出物如何被组织成可验证的能力证据（而不是散落在简历里的项目罗列），见 [ai-career-graph](https://github.com/yourname/ai-career-graph)。（*发布前请替换为真实仓库地址*）
+> 💡 如果你想知道这些产出物如何被组织成可验证的能力证据（而不是散落在简历里的项目罗列），见 [ai-career-graph](https://github.com/pulj26pulj26/ai-career-graph)。（*发布前请替换为真实仓库地址*）
 
 ---
 
